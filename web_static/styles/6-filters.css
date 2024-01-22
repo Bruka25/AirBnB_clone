@@ -1,5 +1,5 @@
 /*
- Css for filtering 5-index.html
+ Css for filtering 6-index.html
  */
 
 .filters {
@@ -33,6 +33,7 @@
   height: 100%;
   width: 25%;
   float: left;
+  position: relative;
 }
 
 h3 {
@@ -47,4 +48,20 @@ h4 {
 .locations {
   border-right: solid #dddddd 1px;
   margin-left: 25px;
+}
+
+.popover {
+  background-color: #fafafa;
+  border: #dddddd 1px;
+  border-radius: 4px;
+  display: none;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+  display: block;
 }
