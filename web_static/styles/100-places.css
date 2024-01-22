@@ -33,6 +33,20 @@
   min-width: 60px;
 }
 
+.number_rooms {
+  width: 100px;
+  background: no-repeat url(../images/icon_bed.png);
+}
+
+.number_bathrooms {
+  width: 100px;
+  background: no-repeat url(../images/icon_bath.png);
+}
+.max_guest {
+  width: 100px;
+  background: no-repeat url(../images/icon_group.png);
+}
+
 .places .information {
   align-items: center;
   border-top: 1px solid #ddd;
